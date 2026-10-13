@@ -13,3 +13,20 @@
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
 # TODO: Twój kod poniżej
+liczba = float(input("Podaj liczbę: "))
+liczba2 = float(input("Podaj drugą liczę: "))
+dodawanie = liczba + liczba2
+odejmowanie = liczba - liczba2
+mnozenie = liczba * liczba2
+dzielenie = liczba / liczba2
+dzielenie_calkowite = liczba // liczba2
+reszta_z_dzielenia = liczba % liczba2
+potegowanie = liczba ** liczba2
+
+print(f"{liczba} + {liczba2} = {dodawanie}")
+print(f"{liczba} - {liczba2} = {odejmowanie}")
+print(f"{liczba} * {liczba2} = {mnozenie}")
+print(f"{liczba} / {liczba2} = {dzielenie}")
+print(f"{liczba} // {liczba2} = {dzielenie_calkowite}")
+print(f"{liczba} % {liczba2} = {reszta_z_dzielenia}")
+print(f"{liczba} ** {liczba2} = {potegowanie}")
